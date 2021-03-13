@@ -1,0 +1,81 @@
+Operadores Aritmeticos : + , * , / , - ....
+
+Operadores Relacionales : 
+> mayor que 
+< menor que 
+>= mayor o igual que 
+<= menor o igual que 
+!= distinto o diferente
+== igual que
+ 
+Ejemplo: si a = 10 , b = 20 y c = 30
+a + b > c False    
+a - b < c true
+a - b == c False
+a * b != c True
+
+Operadores Logicos : And && , or || , not !  
+
+Prioridades de los operadores en Gral:
+1-()
+2- * , / Mod , Not
+3- + , - , And
+4- > ,< , >= ,<= , == , != , Or
+
+Ejemplo: si a = 10 , b = 20 y c = 30
+
+(a < b) and (b < c) 
+   V    and     V
+         V
+
+Ejercicios practica:  si a = 10 , b = 12 , c = 13 y d = 10 
+
+ej 1) 
+(( a  > b ) or ( a < c )) and ((a == c) and (a >= b))
+    (  F    or     V   )  and  (  F     and    F  )
+            V             and          F
+                           F
+
+ej 2) 
+((a >= b)or (a < d))  and  ((a >= d ) and (c > d)) 
+ (   F   or    F   )  and  (    V     and    V   )	
+         F            and           V
+                      F
+
+ej 3) 
+not(a == c) and  (c > b)
+   not(   F )and    V 
+         V   and  V
+              V
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
